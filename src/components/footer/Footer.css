@@ -1,0 +1,140 @@
+.footer-wrapper {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: black;
+  color: whitesmoke;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+}
+
+.footer-data {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-data-email-and-icons {
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.footer-data-columns-fotos {
+  flex: 1 1 40%;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 1rem;
+}
+
+.footer-data-columns-videos {
+  flex: 1 1 40%;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 1rem;
+}
+
+.footer-data-columns-outstanding {
+  flex: 1 1 40%;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 1rem;
+}
+
+.footer-data-columns-fotos>p {
+  font-size: x-small;
+}
+
+.footer-data-columns-videos>p {
+  font-size: x-small;
+}
+
+.footer-data-columns-outstanding>p {
+  font-size: x-small;
+}
+
+.footer-data-columns-fotos>h2 {
+  font-size: medium;
+}
+
+.footer-data-columns-videos>h2 {
+  font-size: medium;
+}
+
+.footer-data-columns-outstanding>h2 {
+  font-size: medium;
+}
+
+.footer-conditions-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.footer-conditions-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.footer-conditions-wrapper>div>p {
+  font-style: italic;
+  font-size: small;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .footer-data {
+    flex-direction: row;
+  }
+
+  .footer-data-columns-fotos {
+    flex: 1 1 20%;
+  }
+
+  .footer-data-columns-videos {
+    flex: 1 1 20%;
+  }
+
+  .footer-data-columns-outstanding {
+    flex: 1 1 20%;
+  }
+
+  .footer-conditions-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */

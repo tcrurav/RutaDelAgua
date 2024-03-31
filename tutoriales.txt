@@ -1,0 +1,38 @@
+https://www.figma.com/templates/web-design-inspiration/
+https://logoai.com/logo-maker
+https://www.figma.com/community/file/1350663329215833298/landing-page-box-studio
+
+El diseño guapo:
+https://www.figma.com/file/ZgUGMBx3eqK6L7y5rrKoZ4/eCommerce-Website-%7C-Web-Page-Design-%7C-UI-KIT-%7C-Interior-Landing-Page-(Community)?type=design&node-id=63-107&mode=design&t=gq0sRJhXCEPsZ02l-0
+
+https://dev.to/davidemaye/how-to-set-up-font-awesome-in-react-5a8d
+
+Sólo me hizo falta esto:
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/react-fontawesome@latest
+
+free icons: https://fontawesome.com/search?m=free&o=r
+
+Usé:
+Gimp
+Paint
+
+Partes:
+ - Diseñar:
+    - Footer
+    - Header
+      
+Cosas:
+  - fontawesome
+
+
+Por si acaso pero no creo que haga falta:
+https://docs.fontawesome.com/web/use-with/react
+
+npm install --save @fortawesome/fontawesome-free
+npm i --save @fortawesome/fontawesome-svg-core
+https://docs.fontawesome.com/web/use-with/react/add-icons/
+https://fontawesome.com/search?m=free&o=r (los iconos libres)
+https://fontawesome.com/start

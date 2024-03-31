@@ -1,0 +1,146 @@
+.header-wrapper {
+  width: 100vw;
+  font-size: large;
+  padding: calc(env(safe-area-inset-top) + 1rem) 1rem .5rem;
+  background-color: white;
+
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-wrapper {
+  height: 1.5rem;
+  flex: 9 1 90%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.header-logo-image-wrapper {
+  height: 1.5rem;
+}
+
+.header-logo-image-wrapper>img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.header-logo-text-wrapper {
+  font-size: large;
+  padding-left: .5rem;
+  cursor: pointer;
+}
+
+.header-menu-options {
+  flex: 2 1 33%;
+
+  font-size: small;
+
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-menu-options>* {
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 15px;
+}
+
+.header-icons {
+  flex: 1 9 10%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-icons>* {
+  padding: 0 .5rem;
+  cursor: pointer;
+}
+
+.header-icons-desktop {
+  display: none;
+}
+
+#header-icons-menu {
+  padding-right: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .header-logo-wrapper {
+    flex: 3 1 35%;
+  }
+
+  .header-menu-options {
+    flex: 6 1 60%;
+
+    display: flex;
+  }
+
+  .header-menu-options>* {
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+  }
+
+  .header-icons {
+    flex: 1 9 5%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .header-wrapper {
+    position: fixed;
+    position: -webkit-fixed;
+    top: 0;
+
+    font-size: large;
+    padding: 1rem 2rem;
+  }
+
+  .header-logo-wrapper {
+    flex: 1 1 33%;
+  }
+
+  .header-menu-options {
+    flex: 2 1 33%;
+
+    font-size: medium;
+  }
+
+  .header-icons {
+    flex: 1 1 33%;
+  }
+
+  .header-icons-desktop {
+    display: block;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */
