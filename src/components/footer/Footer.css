@@ -99,6 +99,18 @@
   font-size: small;
 }
 
+.footer-data p, .footer-conditions-data p {
+  cursor: pointer;
+}
+
+.footer-data p {
+  margin-top: .5rem;
+}
+
+.footer-data p:hover, .footer-conditions-data p:hover {
+  color: var(--secondary-color);
+}
+
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) {} */
 
