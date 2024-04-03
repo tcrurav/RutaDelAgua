@@ -62,7 +62,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      <a href='#' class="stt" title="scroll to top"></a>
     </>
   )
 }

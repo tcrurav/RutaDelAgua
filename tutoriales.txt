@@ -38,3 +38,12 @@ npm i --save @fortawesome/fontawesome-svg-core
 https://docs.fontawesome.com/web/use-with/react/add-icons/
 https://fontawesome.com/search?m=free&o=r (los iconos libres)
 https://fontawesome.com/start
+
+----------------
+/* credits to https://dev.to/kirteshbansal/spinner-loader-in-react-using-css-458h */
+
+-----------------
+/* credits to https://medium.com/geekculture/how-can-you-create-a-scroll-to-top-button-with-just-html-4cb69e083e50 */
+
+-----------------
+https://www.freecodecamp.org/news/how-to-lazy-load-images-in-react/
